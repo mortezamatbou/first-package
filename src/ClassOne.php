@@ -1,6 +1,6 @@
 <?php
 
-namespace Classes\Test;
+namespace FirstPackage\Test;
 
 
 class ClassOne
