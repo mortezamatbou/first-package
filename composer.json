@@ -1,0 +1,21 @@
+{
+    "name": "mortezamatbou/first-package",
+    "description": "My First Package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morteza Matbou",
+            "email": "mortezamatbou91@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "FirstPackage\\Test\\": "src/"
+        }
+    }
+}
