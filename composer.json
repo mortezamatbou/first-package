@@ -1,0 +1,13 @@
+{
+    "name": "mortezamatbou/first-package",
+    "description": "Without any description.",
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\Test\\": "Classes/Test/"
+        }
+    }
+}
